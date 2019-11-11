@@ -1,16 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Routes from './Routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-        
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <Routes />
+      );
+  }  
 }
 
 export default App;
