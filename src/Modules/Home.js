@@ -1,13 +1,12 @@
-import React, {Component} from 'react';
-import Buscar from './modulos/Buscar';
-import Menu from './modulos/Menu';
-import Niveles from './modulos/Niveles';
-import MinEducacion from './modulos/MinEducacion';
-import Minecraft from './modulos/Minecraft';
-import PieDePagina from './modulos/PieDePagina';
+import React, { Component } from 'react';
+import Buscar from '../Components/Home/Buscar';
+import Menu from '../Components/Home/Menu';
+import Niveles from '../Components/Home/Niveles';
+import MinEducacion from '../Components/Home/MinEducacion';
+import Minecraft from '../Components/Home/MineCraft';
+import PieDePagina from '../Components/Home/PieDePagina';
 
-
-class PieDePaginaP1 extends Component {
+class Home extends Component {
     render()
     {
         return(
@@ -33,7 +32,6 @@ class PieDePaginaP1 extends Component {
             </div>
         );
     }
-    }
-    export default PieDePaginaP1;
+}
 
-
+export default Home;

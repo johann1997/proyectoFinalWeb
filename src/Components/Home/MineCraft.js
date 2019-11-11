@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Minecraft extends Component {
+class MineCraft extends Component {
     render()
     {
         return(
@@ -9,5 +9,5 @@ class Minecraft extends Component {
             </div>
         );
     }
-    }
-    export default MinEducacion;
+}
+export default MineCraft;
