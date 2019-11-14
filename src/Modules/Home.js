@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Buscar from '../Components/Home/Buscar';
 import Menu from '../Components/Home/Menu';
 import Niveles from '../Components/Home/Niveles';
@@ -29,6 +30,7 @@ class Home extends Component {
             <div className = "PieDePaginaP1">
                 <PieDePagina />
             </div>
+            <Link to='/login'><button className="btn-style-home">Comenzar</button></Link>
             </div>
         );
     }
