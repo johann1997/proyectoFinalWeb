@@ -7,7 +7,7 @@ import Niveles from '../Components/Home/Niveles';
 import MinEducacion from '../Components/Home/MinEducacion';
 import Minecraft from '../Components/Home/MineCraft';
 import PieDePagina from '../Components/Home/PieDePagina';
-import '../css/Home/Home.css';
+import '../Style/Home-style.css';
 
 class Home extends Component {
     render()
