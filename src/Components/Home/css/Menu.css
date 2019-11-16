@@ -1,0 +1,33 @@
+.Menu{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(235, 6, 6);
+   width: 100%;
+   height:40px;
+   font-size: 140%;
+   color: white;
+
+}
+.AcercaDe{
+margin-left: 9%;
+width:20% ;
+}
+.Nosotros{
+    margin-left: 6%;
+    width:20% ;
+    
+
+}
+.Videos{
+    margin-left: 6%;
+    width:20% ;
+
+
+}
+.Comunidad{
+    margin-left: 5%;
+    width:20% ;
+    
+
+}

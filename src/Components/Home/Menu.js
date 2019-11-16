@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './css/Menu.css';
 
 
 class Menu extends Component {
@@ -7,16 +8,16 @@ render()
     return(
         <div className = "Menu">
             <div className = "AcercaDe">
-                <h1>Acerca de</h1>
+                Acerca de
             </div>
             <div className = "Nosotros">
-                <h1>Nosotros</h1>
+                Nosotros
             </div>
             <div className = "Videos">
-                <h1>Videos</h1>
+                Videos
             </div>
             <div className = "Comunidad">
-                <h1>Comunidad</h1>
+                Comunidad
             </div>
  
         </div>

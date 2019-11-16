@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import Logo from './images/steam.PNG';
+import './css/Buscar.css';
+import Lupa2 from './images/lupa2.png';
 
 
 class Buscar extends Component {
@@ -7,16 +10,16 @@ class Buscar extends Component {
         return(
             <div className = "BarraBuscar">
                 <div className = "logo">
-                    <h1>logo</h1>
+                    <img src= {Logo} className ="img"></img>
                 </div>
                 <div className = "AreaBuscar">
-                    <h1>TextArea</h1>
+                    <textarea></textarea>
                 </div>
                 <div className = "Lupa">
-                    <h1>Lupa</h1>
+                <img src= {Lupa2} className ="imgLupa2"></img>
                 </div>
                 <div className = "Docente">
-                    <h1>docente</h1>
+                    <h1>DOCENTE</h1>
                 </div>
      
             </div>

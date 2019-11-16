@@ -1,0 +1,23 @@
+.Minecraft{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.imgcraft{
+    width: 90%;
+}
+.TextoCraft{
+  
+    width: 18%;
+    text-align: end;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 12%;
+    color: white;
+
+}
+.Titulo{
+    font-size: 400%;
+}
+.Escrito{
+    font-size: 130%;
+}

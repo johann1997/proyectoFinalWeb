@@ -1,0 +1,38 @@
+.PieDePagina{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 26, 26);
+    margin-top: 4%;
+    width: 100%;color: white;
+   
+}
+.contactos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80%;
+
+}
+.Texto{
+    margin-left: 8%;
+   width: 40%;
+   
+   position: absolute;
+}
+.icono1{
+   
+    width: 30px;
+}
+.icono2{
+    
+    width: 30px;
+    margin: 10px;
+  
+}
+.icono3{
+    
+    width: 30px;
+    
+}

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Buscar from '../Components/Home/Buscar';
 import Menu from '../Components/Home/Menu';
+import Estudiando from '../Components/Home/Estudiando';
 import Niveles from '../Components/Home/Niveles';
 import MinEducacion from '../Components/Home/MinEducacion';
 import Minecraft from '../Components/Home/MineCraft';
 import PieDePagina from '../Components/Home/PieDePagina';
+import '../css/Home/Home.css';
 
 class Home extends Component {
     render()
@@ -16,6 +19,9 @@ class Home extends Component {
             </div>
             <div className = "MenuP1">
                 <Menu />
+            </div>
+            <div className = "EstudiandoP1">
+                <Estudiando />
             </div>
             <div className = "NivelesP1">
                 <Niveles />
@@ -29,6 +35,7 @@ class Home extends Component {
             <div className = "PieDePaginaP1">
                 <PieDePagina />
             </div>
+            <Link to='/login'><button className="btn-style-home">Comenzar</button></Link>
             </div>
         );
     }
