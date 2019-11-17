@@ -1,0 +1,13 @@
+Tipografía
+
+Tamaños----------------
+Titulo1: 45px
+Titulo2: 25px
+Subtitulos:20px
+Botones:18px
+Texto: 15px
+
+Font family-----
+
+Titulo, subtitulo, Boton: 'Raleway', sans-serif;
+Parráfo, texto: 'Quicksand', sans-serif;

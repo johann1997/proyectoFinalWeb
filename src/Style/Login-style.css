@@ -2,20 +2,21 @@
     background-image: url("../Images/background_login.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 
 .information-login{
-    height: 50rem;
+    height: 42rem;
     display: flex;
     justify-content: flex-end;  
     align-items: center;
     padding-right: 10%;
     color: white;
-    font-size: 20px;
 }
 
-h2 .information-login{
-    font-style: italic;
+.Title2{
+    font-size: 25px;
+    font-size: 'Raleway', sans-serif;
 }
 
 .input-container {
@@ -24,16 +25,22 @@ h2 .information-login{
     width: 100%;
     margin-bottom: 15px;
     background-color: transparent;
+    font-size: 15px;
+    font-size: 'Quicksand', sans-serif;
+    color: white;    
   }
 
   .input-field{
       background-color: transparent;
-      border: none;      
+      border: none;
+      font-size: 15px;
+      font-size: 'Quicksand', sans-serif;      
   }
 
   ::placeholder {
       color: white;
       font-size: 15px;
+      font-size: 'Quicksand', sans-serif;
   }
   
   .img-loginstyle {
@@ -51,5 +58,12 @@ h2 .information-login{
       margin-left: auto;
       margin-right: auto;
       margin-top: 15%;
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .btn:hover{
+    background-color: rgb(211, 1, 1);
+    color: white;
   }
 

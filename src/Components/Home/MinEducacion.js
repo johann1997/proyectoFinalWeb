@@ -4,15 +4,13 @@ import './css/MinEducacion.css';
 
 class MinEducacion extends Component {
     render()
-        {
-            return(
-                <div className = "Imagen">
-                      <img src= {ImgEdu} className ="imgEdu"></img>
-                    <div className = "Boton">
-                        <button>Ver más</button>
-                    </div>
-                </div>
-            );
-        }
+    {
+        return(
+            <div className = "content-education-banner">
+                <img src= {ImgEdu} className ="imgEdu"></img>
+                <button>Ver más</button>
+            </div>
+        );
     }
-    export default MinEducacion;
+}
+export default MinEducacion;

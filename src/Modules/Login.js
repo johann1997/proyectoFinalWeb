@@ -13,7 +13,7 @@ const Login = () => (
         <div className="information-login">
             <div>
             <form >
-            <h2>INICIAR SESIÓN</h2>
+            <text className="Title2">INICIAR SESIÓN</text>
             <br></br>
             <br></br>
                 <div class="input-container">

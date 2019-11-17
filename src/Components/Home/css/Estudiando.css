@@ -1,41 +1,37 @@
-.Estudiante{
-    margin-top: 0%;
-}
 .imgEstudiar{
     width: 100%;
 }
+
 .TextoEstudio{
-  
     width: 18%;
     text-align: end;
     position: absolute;
     margin-left: 76%;
     margin-top: 7%;
     color: black;
+}
 
+.Titulo text{
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
 }
-.Titulo{
-    font-size: 400%;
+
+.Escrito p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
 }
-.Escrito{
-    font-size: 130%;
-}
+
 .buttonE{
     background-color: rgb(201, 5, 5);
-    position: absolute;
-    margin-top: -4.8%;
-    width: 15%;
-    height: 50px;
+    border:none;
+    padding:5%;
+    width: 100%;
     color: white;
-  margin-left: 36.5%;
-    font-size:130%;
-    
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
-.Boton{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-   
-  
+
+.buttonE:hover{
+    background-color: rgb(141, 0, 0);
 }
+

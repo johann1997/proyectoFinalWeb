@@ -7,16 +7,16 @@ render()
 {
     return(
         <div className = "Menu">
-            <div className = "AcercaDe">
+            <div className = "items-home">
                 Acerca de
             </div>
-            <div className = "Nosotros">
+            <div className = "items-home">
                 Nosotros
             </div>
-            <div className = "Videos">
+            <div className = "items-home">
                 Videos
             </div>
-            <div className = "Comunidad">
+            <div className = "items-home">
                 Comunidad
             </div>
  

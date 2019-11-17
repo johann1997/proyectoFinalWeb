@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import Logo from './images/steam.PNG';
+import { Link } from 'react-router-dom';
 import './css/Buscar.css';
-import Lupa2 from './images/lupa2.png';
+import Logo from './images/steam.PNG';
+import Lupaicon from './images/lupa.png';
 
 
 class Buscar extends Component {
@@ -10,21 +11,20 @@ class Buscar extends Component {
         return(
             <div className = "BarraBuscar">
                 <div className = "logo">
-                    <img src= {Logo} className ="img"></img>
+                    <img src= {Logo}></img>
                 </div>
                 <div className = "AreaBuscar">
-                    <textarea></textarea>
+                    <input type="text" className="AreaBuscarText"></input>
                 </div>
                 <div className = "Lupa">
-                <img src= {Lupa2} className ="imgLupa2"></img>
+                <img src= {Lupaicon}></img>
                 </div>
                 <div className = "Docente">
-                    <h1>DOCENTE</h1>
-                </div>
-     
+                    <Link to='/Login'><text className="Title">INGRESAR</text></Link>
+                </div>     
             </div>
         );
     }
-    }
-    export default Buscar;
+}
+export default Buscar;
 

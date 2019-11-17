@@ -1,29 +1,25 @@
-.Image{
-    margin-left: 0px;
-    margin-right: 0px;
-   
+.content-education-banner{
+    display: flex;
+    justify-content: center;
 }
+
 .imgEdu{
     width: 100%;
     margin-top: 3%;
 }
-button{
-    background-color: rgb(201, 5, 5);
-    position: relative;
-    margin-top: -13%;
+
+.content-education-banner button{
+    position: absolute;
     width: 18%;
     height: 50px;
+    background-color: rgb(201, 5, 5);
     color: white;
-    border:none;
-
-    font-size:150%;
-    
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    margin-top: 23%;
 }
-.Boton{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-   
-  
+
+.content-education-banner button:hover{
+    background-color: rgb(141, 0, 0);
 }
